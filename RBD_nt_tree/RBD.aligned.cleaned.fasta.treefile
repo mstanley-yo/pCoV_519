@@ -1,0 +1,134 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=32;
+	taxlabels
+	GD2019[&Country="China",Definition="NA",Host="pangolin",Length=29825,Organism="BetaCoV/pangolin/Guangdong/1/2019",collection-date="2019",isolate-name="Guangdong/1/2019"]
+	'KF367457.1'[&Country="China",Definition="Bat SARS-like coronavirus WIV1, complete genome",Host="Rhinolophus sinicus",Length=30309,Organism="Bat SARS-like coronavirus WIV1",collection-date="Sep-2012",isolate-name="WIV1"]
+	'KF569996.1'[&Country="China",Definition="Rhinolophus affinis coronavirus isolate LYRa11, complete genome",Host="Rhinolophus affinis",Length=29805,Organism="Rhinolophus affinis coronavirus",collection-date="2011",isolate-name="LYRa11"]
+	'LC556375.1'[&Country="Japan",Definition="Severe acute respiratory syndrome-related coronavirus Rc-o319 RNA, complete genome",Host="Rhinolophus cornutus",Length=29718,Organism="Severe acute respiratory syndrome-related coronavirus",collection-date="2013",isolate-name="Rc-o319"]
+	'LC663793.1'[&Country="Japan: Shizuoka",Definition="Sarbecovirus sp. Rc-kw8 RNA, complete genome",Host="Rhinolophus cornutus",Length=29718,Organism="Sarbecovirus sp.",collection-date="2020-09",isolate-name="Rc-kw8"]
+	'LC663958.1'[&Country="Japan: Niigata",Definition="Sarbecovirus sp. Rc-os20 RNA, complete geneome",Host="Rhinolophus cornutus",Length=29397,Organism="Sarbecovirus sp.",collection-date="2020-06",isolate-name="Rc-os20"]
+	'LC663959.1'[&Country="Japan: Chiba",Definition="Sarbecovirus sp. Rc-mk2 RNA, complete geneome",Host="Rhinolophus cornutus",Length=29397,Organism="Sarbecovirus sp.",collection-date="2020-09",isolate-name="Rc-mk2"]
+	'MN996532.2'[&Country="China",Definition="Bat coronavirus RaTG13, complete genome",Host="Rhinolophus affinis",Length=29855,Organism="Bat coronavirus RaTG13",collection-date="24-Jul-2013",isolate-name="RaTG13"]
+	'MT040333.1'[&Country="China",Definition="Pangolin coronavirus isolate PCoV_GX-P4L, complete genome",Host="Manis javanica (Malayan pangolin)",Length=29805,Organism="Pangolin coronavirus",collection-date="2017",isolate-name="PCoV_GX-P4L"]
+	'MT040334.1'[&Country="China",Definition="Pangolin coronavirus isolate PCoV_GX-P1E, complete genome",Host="Manis javanica (Malayan pangolin)",Length=29801,Organism="Pangolin coronavirus",collection-date="2017",isolate-name="PCoV_GX-P1E"]
+	'MT040335.1'[&Country="China",Definition="Pangolin coronavirus isolate PCoV_GX-P5L, complete genome",Host="Manis javanica (Malayan pangolin)",Length=29806,Organism="Pangolin coronavirus",collection-date="2017",isolate-name="PCoV_GX-P5L"]
+	'MT040336.1'[&Country="China",Definition="Pangolin coronavirus isolate PCoV_GX-P5E, complete genome",Host="Manis javanica (Malayan pangolin)",Length=29802,Organism="Pangolin coronavirus",collection-date="2017",isolate-name="PCoV_GX-P5E"]
+	'MT072864.1'[&Country="China",Definition="Pangolin coronavirus isolate PCoV_GX-P2V, complete genome",Host="pangolin",Length=29795,Organism="Pangolin coronavirus",collection-date="2018",isolate-name="PCoV_GX-P2V"]
+	'MT121216.1'[&Country="China",Definition="Pangolin coronavirus isolate MP789, complete genome",Host="Manis javanica",Length=29521,Organism="Pangolin coronavirus",collection-date="2019-03-29",isolate-name="MP789"]
+	'MT799521.1'[&Country="China",Definition="Pangolin coronavirus isolate cDNA8-S surface glycoprotein (S) gene, complete cds",Host="Manis javanica",Length=3798,Organism="Pangolin coronavirus",collection-date="2019",isolate-name="cDNA8-S"]
+	'MT799522.1'[&Country="China",Definition="Pangolin coronavirus isolate cDNA9-S surface glycoprotein (S) gene, complete cds",Host="Manis javanica",Length=3798,Organism="Pangolin coronavirus",collection-date="2019",isolate-name="cDNA9-S"]
+	'MT799523.1'[&Country="China",Definition="Pangolin coronavirus isolate cDNA16-S surface glycoprotein (S) gene, complete cds",Host="Manis javanica",Length=3798,Organism="Pangolin coronavirus",collection-date="2019",isolate-name="cDNA16-S"]
+	'MT799524.1'[&Country="China",Definition="Pangolin coronavirus isolate cDNA18-S surface glycoprotein (S) gene, complete cds",Host="Manis javanica",Length=3798,Organism="Pangolin coronavirus",collection-date="2019",isolate-name="cDNA18-S"]
+	'MT799525.1'[&Country="China",Definition="Pangolin coronavirus isolate cDNA20-S surface glycoprotein (S) gene, complete cds",Host="Manis javanica",Length=3798,Organism="Pangolin coronavirus",collection-date="2019",isolate-name="cDNA20-S"]
+	'MT799526.1'[&Country="China",Definition="Pangolin coronavirus isolate cDNA31-S surface glycoprotein (S) gene, complete cds",Host="Manis javanica",Length=3798,Organism="Pangolin coronavirus",collection-date="2019",isolate-name="cDNA31-S"]
+	'MZ937000.1'[&Country="Laos",Definition="Bat coronavirus isolate BANAL-20-52/Laos/2020, complete genome",Host="Rhinolophus malayanus",Length=29838,Organism="Bat coronavirus",collection-date="05-Jul-2020",isolate-name="BANAL-20-52/Laos/2020"]
+	'MZ937001.1'[&Country="Laos",Definition="Bat coronavirus isolate BANAL-20-103/Laos/2020, complete genome",Host="Rhinolophus pusillus",Length=29632,Organism="Bat coronavirus",collection-date="07-Jul-2020",isolate-name="BANAL-20-103/Laos/2020"]
+	'MZ937003.2'[&Country="Laos",Definition="Bat coronavirus isolate BANAL-20-236/Laos/2020, complete genome",Host="Rhinolophus marshalli",Length=29844,Organism="Bat coronavirus",collection-date="10-Jul-2020",isolate-name="BANAL-20-236/Laos/2020"]
+	'NC_004718.3'[&Country="Canada: Toronto",Definition="SARS coronavirus Tor2, complete genome",Host="Homo sapiens; patient #2 with severe acute respiratory syndrome (SARS)",Length=29751,Organism="SARS coronavirus Tor2",collection-date="NA",isolate-name="Tor2"]
+	'NC_045512.2'[&Country="China",Definition="Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome",Host="Homo sapiens",Length=29903,Organism="Severe acute respiratory syndrome coronavirus 2",collection-date="Dec-2019",isolate-name="Wuhan-Hu-1"]
+	'OQ297700.1'[&Country="China",Definition="MAG: Pangolin coronavirus isolate GD/M5-9/2019, partial genome",Host="Manis javanica",Length=29709,Organism="Pangolin coronavirus",collection-date="Apr-2019",isolate-name="GD/M5-9/2019"]
+	'OQ297707.1'[&Country="China",Definition="MAG: Pangolin coronavirus isolate GD/P44-9/2019, partial genome",Host="Manis javanica",Length=29617,Organism="Pangolin coronavirus",collection-date="Apr-2019",isolate-name="GD/P44-9/2019"]
+	'OQ297708.1'[&Country="China",Definition="MAG: Pangolin coronavirus isolate GD/P79-9/2019, complete genome",Host="Manis javanica",Length=29768,Organism="Pangolin coronavirus",collection-date="Mar-2019",isolate-name="GD/P79-9/2019"]
+	'OR233322.1'[&Country="Viet Nam",Definition="Horseshoe bat sarbecovirus isolate Ra22QT106, complete genome",Host="Rhinolophus affinis",Length=29751,Organism="Horseshoe bat sarbecovirus",collection-date="03-Nov-2022",isolate-name="Ra22QT106"]
+	'OR233323.1'[&Country="Viet Nam",Definition="Horseshoe bat sarbecovirus isolate Ra22QT135, complete genome",Host="Rhinolophus affinis",Length=29751,Organism="Horseshoe bat sarbecovirus",collection-date="04-Nov-2022",isolate-name="Ra22QT135"]
+	'OR233324.1'[&Country="Viet Nam",Definition="Horseshoe bat sarbecovirus isolate Ra22QT77, complete genome",Host="Rhinolophus affinis",Length=29751,Organism="Horseshoe bat sarbecovirus",collection-date="03-Nov-2022",isolate-name="Ra22QT77"]
+	'OR233328.1'[&Country="Viet Nam",Definition="Horseshoe bat sarbecovirus isolate Ra22QT137, complete genome",Host="Rhinolophus affinis",Length=29751,Organism="Horseshoe bat sarbecovirus",collection-date="04-Nov-2022",isolate-name="Ra22QT137"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (GD2019:0.0,(((((('MT799521.1':1.0E-6,((((((((('KF367457.1':0.03855,'NC_004718.3':0.050351)[&label=84]:0.015877,'KF569996.1':0.052503)[&label=100]:0.205845,(('LC556375.1':0.110588,('LC663793.1':0.109396,'LC663959.1':0.108952)[&label=92]:0.032441)[&label=93]:0.042626,'LC663958.1':0.091378)[&label=100]:0.171931)[&label=100]:0.165668,(((('MT040335.1':1.0E-6,'MT072864.1':1.0E-6)[&label=23]:1.0E-6,'MT040333.1':1.0E-6)[&label=35]:1.0E-6,'MT040334.1':1.0E-6)[&label=47]:1.0E-6,'MT040336.1':0.001518)[&label=100]:0.181956)[&label=70]:0.057846,'MN996532.2':0.096462)[&label=65]:0.043459,('NC_045512.2':0.039484,(('MZ937003.2':0.001522,'MZ937001.1':1.0E-6)[&label=90]:0.001454,'MZ937000.1':0.003115)[&label=99]:0.025253)[&label=89]:0.021072)[&label=51]:0.024599,((('OR233322.1':0.0,'OR233324.1':0.0):0.0,'OR233328.1':0.0):1.0E-6,'OR233323.1':1.0E-6)[&label=100]:0.242335)[&label=100]:0.089824,'OQ297700.1':0.001491)[&label=60]:1.0E-6,('OQ297707.1':1.0E-6,'MT121216.1':1.0E-6)[&label=96]:0.001487)[&label=75]:1.0E-6):1.0E-6,'MT799522.1':0.0):0.0,'OQ297708.1':0.0):0.0,'MT799523.1':0.0):0.0,'MT799524.1':0.0):0.0,'MT799525.1':0.0):0.0,'MT799526.1':0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="isolate-name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
